@@ -1,0 +1,19 @@
+body {
+    background-color: blue;
+}
+.App {
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+button {
+    background-color: red;
+}
+input {
+    background-color: lightgreen;
+}
+.citat  {
+    &:hover {
+        background-color: pink;
+    }
+}
